@@ -154,7 +154,7 @@
 
         <!-- Databases -->
         <mysql.version>8.0.23</mysql.version>
-        <mysql.driver.version>8.0.28</mysql.driver.version>
+        <mysql.driver.version>8.0.31</mysql.driver.version>
         <postgresql.version>13.2</postgresql.version>
         <postgresql.driver.version>42.3.3</postgresql.driver.version>
         <mariadb.version>10.3.27</mariadb.version>
@@ -198,7 +198,7 @@
         <surefire.memory.metaspace>96m</surefire.memory.metaspace>
         <surefire.memory.metaspace.max>512m</surefire.memory.metaspace.max>
         <surefire.memory.settings>-Xms${surefire.memory.Xms} -Xmx${surefire.memory.Xmx} -XX:MetaspaceSize=${surefire.memory.metaspace} -XX:MaxMetaspaceSize=${surefire.memory.metaspace.max}</surefire.memory.settings>
-        <surefire.system.args></surefire.system.args>
+        <surefire.system.args/>
 
         <!-- Tomcat versions -->
         <tomcat8.version>8.5.38</tomcat8.version>
@@ -266,7 +266,7 @@
         </developer>
     </developers>
 
-    <contributors></contributors>
+    <contributors/>
 
     <modules>
         <module>boms</module>
